@@ -11,6 +11,7 @@ Requires:	ImageMagick
 Requires:	dvdauthor	>= 0.6.13
 Requires:	mjpegtools
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 dvd-slideshow makes a DVD slideshow video with menus from a text
