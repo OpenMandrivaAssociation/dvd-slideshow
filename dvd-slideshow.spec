@@ -1,5 +1,5 @@
 %define _rel	-1
-Summary:	dvd-slideshow makes a DVD slideshow video
+Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
 Version:	0.8.0
 Release:	%mkrel 1
