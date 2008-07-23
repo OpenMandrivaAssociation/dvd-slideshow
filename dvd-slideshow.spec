@@ -2,7 +2,7 @@
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
 Version:	0.8.0
-Release:	%mkrel 2
+Release:	%mkrel 4
 License:	GPL
 Group:		Video
 URL:		http://dvd-slideshow.sourceforge.net/
