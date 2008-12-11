@@ -7,7 +7,7 @@ License:	GPL
 Group:		Video
 URL:		http://dvd-slideshow.sourceforge.net/
 Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{version}%{_rel}.tar.bz2
-Requires:	ImageMagick
+Requires:	imagemagick
 Requires:	dvdauthor	>= 0.6.13
 Requires:	mjpegtools
 BuildArch:	noarch
