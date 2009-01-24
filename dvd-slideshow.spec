@@ -1,12 +1,13 @@
-%define _rel	-1
+%define _rel -2
+
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
-Version:	0.8.0
-Release:	%mkrel 4
-License:	GPL
+Version:	0.8.2
+Release:	%mkrel 1
+License:	GPLv2+
 Group:		Video
 URL:		http://dvd-slideshow.sourceforge.net/
-Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{version}%{_rel}.tar.bz2
+Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{version}%{_rel}.tar.gz
 Requires:	imagemagick
 Requires:	dvdauthor	>= 0.6.13
 Requires:	mjpegtools
@@ -38,7 +39,7 @@ install man/* %{buildroot}%{_mandir}/man1
 
 %files
 %defattr(644,root,root,755)
-%doc *.txt *.html
+%doc *.txt doc/*.html
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
 
