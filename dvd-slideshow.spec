@@ -1,13 +1,11 @@
-%define _rel -2
-
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
-Version:	0.8.2
+Version:	0.8.2.2
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Video
 URL:		http://dvd-slideshow.sourceforge.net/
-Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{version}%{_rel}.tar.gz
+Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{version}.tar.gz
 Requires:	imagemagick
 Requires:	dvdauthor	>= 0.6.13
 Requires:	mjpegtools
@@ -21,7 +19,7 @@ some nice effects like fades, crops, scrolls, or Ken Burns effects.
 It will hopefully become a command-line clone of imovie.
 
 %prep
-%setup -q -n %{name}-%{version}%{_rel}
+%setup -q -n %{name}-%{version}
 
 %install
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
