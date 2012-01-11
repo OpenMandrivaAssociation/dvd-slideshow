@@ -1,16 +1,22 @@
+%define		vmajor 0.8.4
+%define		vminor 2
+
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
-Version:	0.8.2.2
-Release:	%mkrel 2
+Version:	%{vmajor}.%{vminor}
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		Video
 URL:		http://dvd-slideshow.sourceforge.net/
-Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{vmajor}-%{vminor}.tar.gz
 Requires:	imagemagick
-Requires:	dvdauthor	>= 0.6.13
+Requires:	dvdauthor >= 0.6.13
 Requires:	mjpegtools
+Requires:	sox >= 14.0
+Requires:	ffmpeg
+Suggests:	lame
+Suggests:	oggdec
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 dvd-slideshow makes a DVD slideshow video with menus from a text
@@ -19,7 +25,7 @@ some nice effects like fades, crops, scrolls, or Ken Burns effects.
 It will hopefully become a command-line clone of imovie.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q -n %{name}-%{vmajor}-%{vminor}
 
 %install
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
