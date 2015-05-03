@@ -4,7 +4,7 @@
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
 Version:	%{vmajor}.%{vminor}
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Video
 Url:		http://dvd-slideshow.sourceforge.net/
@@ -12,7 +12,7 @@ Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{vmajor}-%{vminor}.tar
 BuildArch:	noarch
 
 Requires:	dvdauthor >= 0.6.13
-Requires:	ffmpeg
+Requires:	ffmpeg >= 2.5.4
 Requires:	imagemagick
 Requires:	mjpegtools
 Requires:	sox >= 14.0
