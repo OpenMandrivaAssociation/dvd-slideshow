@@ -4,7 +4,7 @@
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
 Version:	%{vmajor}.%{vminor}
-Release:	9
+Release:	10
 License:	GPLv2+
 Group:		Video
 Url:		http://dvd-slideshow.sourceforge.net/
