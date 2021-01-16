@@ -1,10 +1,10 @@
-%define		vmajor 0.8.4
-%define		vminor 2
+%define		vmajor 0.8.6
+%define		vminor 1
 
 Summary:	Makes a DVD slideshow video
 Name:		dvd-slideshow
 Version:	%{vmajor}.%{vminor}
-Release:	11
+Release:	1
 License:	GPLv2+
 Group:		Video
 Url:		http://dvd-slideshow.sourceforge.net/
