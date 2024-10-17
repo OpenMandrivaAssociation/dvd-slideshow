@@ -7,7 +7,7 @@ Version:	%{vmajor}.%{vminor}
 Release:	3
 License:	GPLv2+
 Group:		Video
-Url:		http://dvd-slideshow.sourceforge.net/
+Url:		https://dvd-slideshow.sourceforge.net/
 Source0:	http://dl.sourceforge.net/dvd-slideshow/%{name}-%{vmajor}-%{vminor}.tar.gz
 BuildArch:	noarch
 
